@@ -82,6 +82,7 @@ h2 {
     font-weight: 400;
     padding: 10px;
     background-color: var(--footer-header-background);
+    text-align: center;
 
 }
 
@@ -98,8 +99,8 @@ nav {
     background: none;
     color: #000;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 0.2rem;
+    right: 0.2rem;
 }
 
 #menu::before {
@@ -152,7 +153,7 @@ img {
 
 #name,
 img {
-    display: flexbox;
+    display: inline-flex;
     font-size: xx-large;
     font-weight: 700;
     vertical-align: middle;
@@ -168,7 +169,9 @@ img {
 }
 
 .style-img {
-    margin: 20px;
+    display: block;
+    margin: 0 auto;
+
 
 }
 
@@ -226,4 +229,8 @@ div p {
 .btn:active {
     background-color: #adb5bd;
     color: #000;
+}
+
+figure {
+    padding-top: 20px;
 }
