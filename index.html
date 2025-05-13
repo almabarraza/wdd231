@@ -4,12 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231</title>
+    <title>WDD 231 ALMA DELIA BARRAZA RAYGOZA</title>
+    <meta name="description" content="programing and web development course">
+    <meta name="author" content="Alma Delia Barraza Raygoza">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <h1>WDD 231 Alma Barraza</h1>
-    <h2>example</h2>
+    <header>
+        <img class="style-img" src="images/photo-profile.webp" alt="Alma Barraza" width="150" height="200">
+        <span id="name">Alma Delia Barraza Raygoza</span>
+
+        <button type="button" id="menu" aria-label="open menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chamber">Chamber</a></li>
+                <li><a href="#final">Final</a></li>
+                <li><a href="#github-profile">GitHub Profile</a></li>
+                <li><a href="http://www.linkedin.com/in/almadeliabarraza" target="_blank">LinkedIn</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>Course Work</h2>
+            <ul class="bullet-points">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Culiacán, Sinaloa</h2>
+            <figure class="style-img">
+                <img src="images/mexiquillo-tunnel.webp" alt="mexiquillo-tunnel">
+                <figcaption>Mexiquillo Tunnel</figcaption>
+            </figure>
+
+        </section>
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="first-div">
+                <button class="btn" id="all">ALL</button>
+                <button class="btn" id="cse">CSE</button>
+                <button class="btn" id="wdd">WDD</button>
+
+            </div>
+            <div id="result" class="second-div"></div>
+            <!--   <div class="second-div">
+                <p class="style-p">CSE 110</p>
+                <p class="style-p">WDD 130</p>
+                <p class="style-p">CSE 111</p>
+                <p class="style-others-p">CSE 210</p>
+                <p class="style-p">WDD 131</p>
+                <p class="style-others-p">WDD 231</p>
+            </div> -->
+        </section>
+
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Alma Delia Barraza Raygoza México</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
 </body>
 
 </html>

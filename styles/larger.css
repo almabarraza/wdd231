@@ -1,0 +1,57 @@
+@media screen and (min-width: 320px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+/*
+    h2 {
+
+        display: block;
+        padding: 5px;
+    }*/
+
+
+
+
+    h1 {
+        font-size: 1rem;
+        font-weight: 700;
+        grid-column: span 2;
+        text-align: left;
+    }
+
+
+
+    #menu {
+        display: none;
+        /* hide hamburger button */
+    }
+
+    .navigation {
+        flex-direction: row;
+
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    .certificate {
+        grid-column: span 2;
+    }
+
+    .second-div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       
+    }
+
+
+
+}
