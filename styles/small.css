@@ -13,7 +13,7 @@
     --backgroun-color: #EEF0F2;
     --text-color: #303536;
     --footer-header-background: #B1A9AE;
-    --menu: #846A6A;
+    --menu: #582f0e;
 }
 
 header,
@@ -189,7 +189,7 @@ img {
 }
 
 button {
-    background-color: #6d6875;
+    background-color: #352208;
     border-radius: 5px;
     color: #ddd;
     font-weight: 500;
