@@ -52,7 +52,7 @@ const displayMembers = ((members) => {
 
         businessLogo.setAttribute("src", member.img);
         businessLogo.setAttribute("alt", `logo of ${member.name}`);
-      /*  businessLogo.setAttribute("loading", "lazy");*/
+        businessLogo.setAttribute("loading", "lazy");
         businessLogo.setAttribute("width", "200");
         businessLogo.setAttribute("height", "200");
         address.innerHTML = `<span class="labelimg"> ${member.address}</span>`;
