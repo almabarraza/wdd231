@@ -43,7 +43,6 @@ footer {
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-display: swap;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -54,13 +53,7 @@ body {
 
 header {
     display: grid;
-    /* grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    gap: 50px;
-    align-items: flex-end;
-    justify-items: start;*/
     background-color: var(--footer-header-background);
-    /* text-align: left;*/
     height: 120px;
     padding: 1rem;
     color: var(--text-color)
@@ -160,39 +153,12 @@ nav {
     content: "✖";
 }
 
-/*
-
 .navigation {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     list-style: none;
-    background-color: var(--text-color-header);
-    color: var(--menu);
-
-}
-
-.navigation a {
-    display: none;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
-    color:var(--menu);
-
-}
-
-
-
-
-.open a {
-    display: block;
-}*/
-.navigation {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style: none;
-    background-color: #085258;
+    background-color: #780000;
     color: var(--menu);
     z-index: 10;
 
@@ -210,8 +176,8 @@ nav {
 }
 
 .navigation a:hover {
-    background-color: #bbb;
-    color: #333;
+    background-color: #9D1717;
+    color: white;
     font-weight: 900;
 
 }
@@ -244,4 +210,50 @@ nav {
 
 
 
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    /* grid-template-columns: 2fr 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list section>* {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+
+}
+
+.list section h3 {
+    font-size: 1rem;
+}
+
+.list section:nth-child(even) {
+    background-color: gray;
+
+}
+
+.buttons {
+    padding: 1rem;
+    font-weight: 700;
+    margin: 1rem auto;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 0.75rem;
+    background-color: white;
+    text-align: center;
+
+}
+
+.buttons button {
+    padding: .75rem;
 }

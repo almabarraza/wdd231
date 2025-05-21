@@ -19,15 +19,10 @@
     <link rel="stylesheet" href="styles/chamber-directory.css">
     <link rel="stylesheet" href="styles/chamber-directory-large.css">
     <script src="scripts/chamber-directory.js" defer></script>
-    <!--<link rel="preload" href="https://fonts.googleapis.com">
-    <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">-->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style"
-        onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    </noscript>
+        rel="stylesheet">
 
 </head>
 
@@ -54,7 +49,12 @@
         </nav>
     </header>
     <main>
-        <div id="cards" class="grid"></div>
+        <div class="buttons">
+            <button type="button" id="grid" aria-label="grid button">⏹ Grid</button>
+            <button type="button" id="list" arial aria-label="list button">📄 List</button>
+        </div>
+
+        <div id="cards" class="grid list"></div>
     </main>
     <footer>
         <div>

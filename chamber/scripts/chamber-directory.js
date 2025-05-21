@@ -17,6 +17,19 @@ hamButton.addEventListener('click', () => {
 
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+
+    document.getElementById('grid').addEventListener('click', () => {
+        document.querySelector('#cards').classList.add("grid");
+        document.querySelector('#cards').classList.remove("list");
+    });
+
+    document.getElementById('list').addEventListener('click', () => {
+        document.querySelector('#cards').classList.add("list");
+        document.querySelector('#cards').classList.remove("grid");
+    });
+});
+
 
 /*Chamber Commerce Members Directoy added dynamically from an a JSON file*/
 
@@ -37,6 +50,9 @@ async function getMemberData(url) {
 
 getMemberData(url);
 
+
+
+
 const displayMembers = ((members) => {
 
     document.querySelector("#cards").innerHTML = "";
@@ -52,7 +68,7 @@ const displayMembers = ((members) => {
 
         businessLogo.setAttribute("src", member.img);
         businessLogo.setAttribute("alt", `logo of ${member.name}`);
-       /* businessLogo.setAttribute("loading", "lazy");*/
+        businessLogo.setAttribute("loading", "lazy");
         businessLogo.setAttribute("width", "200");
         businessLogo.setAttribute("height", "200");
         address.innerHTML = `<span class="labelimg"> ${member.address}</span>`;
@@ -76,12 +92,7 @@ const displayMembers = ((members) => {
 
 });
 
-/*I did not create the Grid/List toggle because the example link in the activity is not working.
-/*So I could not follow the example*/
 
-
-
-   
 
 
 
