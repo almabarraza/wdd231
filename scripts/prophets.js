@@ -11,6 +11,7 @@ async function getProphetData(url) {
         console.error('Error getting data', error);
     }
 
+    
 }
 
 getProphetData(url);

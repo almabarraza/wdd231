@@ -1,0 +1,73 @@
+{
+    "members": [
+        {
+            "name": "Bee",
+            "address": "Honey street 235 north",
+            "phone": "667-789875",
+            "website": "https://bee.com",
+            "img": "images/bee-logo.webp",
+            "membership": 1,
+            "business": "honey producer",
+            "ID": 23189
+        },
+        {
+            "name": "Big Tree",
+            "address": "Casa Blanca street 213 south",
+            "phone": "667-189625",
+            "website": "https://bigtree.com",
+            "img": "images/bigtree-logo.webp",
+            "membership": 2,
+            "business": "nursery",
+            "ID": 36958
+        },
+        {
+            "name": "Pink Cake",
+            "address": "Alvaro Obregon blvd 187",
+            "phone": "667-162025",
+            "website": "https://pinkcake.com",
+            "img": "images/pinkcake-logo.webp",
+            "membership": 3,
+            "business": "bakery",
+            "ID": 45987
+        },
+        {
+            "name": "The Toast",
+            "address": "Yellow flower street 369",
+            "phone": "667-789632",
+            "website": "https://thetoast.com",
+            "img": "images/thetoast-logo.webp",
+            "membership": 3,
+            "business": "restaurant",
+            "ID": 78954
+        },
+        {
+            "name": "The Sweet Strawberry",
+            "address": "The fruit street 478",
+            "phone": "667-782125",
+            "website": "https://thesweetstrawberry.com",
+            "img": "images/thesweet-strawberry-logo.webp",
+            "membership": 1,
+            "business": "ice cream shop",
+            "ID": 12345
+        },
+        {
+            "name": "Nice Dress",
+            "address": "Olive street 789",
+            "phone": "667-968235",
+            "website": "https://www.nicedress.com",
+            "img": "images/nicedress-logo.webp",
+            "membership": 2,
+            "business": "boutique",
+            "ID": 45987
+        },
+        {
+            "name": "Waves",
+            "address": "Blue Ocean street 235 north",
+            "phone": "667-789875",
+            "website": "https://waves.com",
+            "img": "images/waves-logo.webp",
+            "membership": 1,
+            "business": "beauty salon"
+        }
+    ]
+}
