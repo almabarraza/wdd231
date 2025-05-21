@@ -43,6 +43,7 @@ footer {
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    font-display: swap;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -226,13 +227,13 @@ nav {
     font-size: large;
     font-style: italic;
     margin-right: 5px;
-    
+
 
 
 }
 
 .style-link {
-    color:#ddd;
+    color: #ddd;
     text-decoration: underline;
     text-decoration-color: currentColor;
 }
