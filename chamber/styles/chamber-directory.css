@@ -49,6 +49,7 @@ body {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    font-display: swap;
 }
 
 header {
@@ -71,6 +72,7 @@ main {
 
 footer {
     text-align: left;
+    font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
     display: grid;
@@ -78,6 +80,7 @@ footer {
     gap: 15px;
     background-color: var(--footer-header-background);
     color: var(--text-color-header)
+    
 }
 
 section {
