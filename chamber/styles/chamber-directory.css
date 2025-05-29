@@ -277,7 +277,7 @@ nav {
 
 }
 
-.call-to-action>a {
+.call-to-action > a {
     text-decoration: none;
     color: white;
     font-size: large;
