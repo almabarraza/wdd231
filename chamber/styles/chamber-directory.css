@@ -265,31 +265,6 @@ nav {
     height: auto;
 }
 
-.call-to-action {
-    z-index: 10;
-    position: absolute;
-    top: 200px;
-    right: 20px;
-    background-color: var(--backgroun-color);
-    padding: 10px;
-    border: 2px solid #ddd;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 9);
-
-}
-
-.call-to-action > a {
-    text-decoration: none;
-    color: white;
-    font-size: large;
-    font-weight: 400;
-
-}
-
-.call-to-action>a:hover {
-    background-color: #06558A;
-    color: white;
-    font-weight: 900;
-}
 
 section {
     display: block;
@@ -403,7 +378,7 @@ h2 {
 .boton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #06558A;
+   /* background-color: #06558A;*/
     color: white;
     text-align: center;
     text-decoration: none;
@@ -413,3 +388,29 @@ h2 {
 .boton:hover {
     background-color: #4361ee;
 }
+
+.call-to-action {
+    z-index: 10;
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    background-color: var(--backgroun-color);
+   /* padding: 10px;*/
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 9);
+
+}
+
+.call-to-action>a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+
+}
+/*
+.call-to-action>a:hover {
+    background-color: #06558A;
+    color: white;
+    font-weight: 900;
+}*/
