@@ -330,7 +330,7 @@ h2 {
     background-color: var(--backgroun-color);
     width: 100%;
     border: none;
-    
+
 }
 
 /*Weather section*/
@@ -340,17 +340,17 @@ h2 {
 
 }
 
-.current-weather > p {
+.current-weather>p {
     font-size: medium;
     padding: 2px;
 
 }
 
-.weather-forecast  {
+.weather-forecast {
     color: white;
 }
 
-.weather-forecast > p {
+.weather-forecast>p {
     padding: 10px;
     font-size: medium;
 }
@@ -360,7 +360,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
     border: none;
-    
+
     font-size: medium;
 }
 
@@ -370,8 +370,8 @@ h2 {
     color: var(--text-color-header);
     background-color: whitesmoke;
     margin: 10px;
-    padding-top: 5px; 
-    padding-bottom: 5px;   
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .labelimg-spotlight {
@@ -398,4 +398,18 @@ h2 {
 
 .bold {
     font-weight: bolder;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #06558A;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #4361ee;
 }
