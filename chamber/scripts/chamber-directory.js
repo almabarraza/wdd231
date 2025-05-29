@@ -51,8 +51,6 @@ async function getMemberData(url) {
 getMemberData(url);
 
 
-
-
 const displayMembers = ((members) => {
 
     document.querySelector("#cards").innerHTML = "";
@@ -91,11 +89,3 @@ const displayMembers = ((members) => {
     });
 
 });
-
-
-
-
-
-
-
-

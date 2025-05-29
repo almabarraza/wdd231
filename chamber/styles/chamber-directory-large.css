@@ -73,4 +73,48 @@
 
     }
 
+    .call-to-action {
+        top: 250px;
+        right: 50px;
+        border: 5px solid #ddd;
+        font-size: larger;
+        font-weight: 600;
+        padding: .75rem;
+    }
+
+    .call-to-action>a {
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    .home-page-grid {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .current-weather>p {
+        font-size: large;
+        padding: 5px;
+
+    }
+
+    .weather-forecast>p {
+        padding: 25px;
+        font-size: large;   }
+
+    .spotlights {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin: 10px;
+        font-size: larger;
+        
+    }
+
+
 }

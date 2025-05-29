@@ -80,7 +80,6 @@ footer {
     gap: 15px;
     background-color: var(--footer-header-background);
     color: var(--text-color-header)
-    
 }
 
 section {
@@ -163,7 +162,7 @@ nav {
     list-style: none;
     background-color: #780000;
     color: var(--menu);
-    z-index: 10;
+    z-index: 15;
 
 
 }
@@ -259,4 +258,144 @@ nav {
 
 .buttons button {
     padding: .75rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.call-to-action {
+    z-index: 10;
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    background-color: var(--backgroun-color);
+    padding: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 9);
+
+}
+
+.call-to-action>a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+
+}
+
+.call-to-action>a:hover {
+    background-color: #06558A;
+    color: white;
+    font-weight: 900;
+}
+
+section {
+    display: block;
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 40px;
+    font-weight: bolder;
+    text-align: left;
+    color: var(--text-color-main);
+}
+
+h2 {
+
+    display: block;
+    padding: 5px;
+    font-weight: 400;
+    font-size: medium;
+    padding: 10px;
+    text-align: left;
+    color: var(--text-color-header);
+    background-color: var(--text-color-main)
+}
+
+.home-page-grid {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--backgroun-color);
+    width: 100%;
+    border: none;
+    
+}
+
+/*Weather section*/
+.current-weather {
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.current-weather > p {
+    font-size: medium;
+    padding: 2px;
+
+}
+
+.weather-forecast  {
+    color: white;
+}
+
+.weather-forecast > p {
+    padding: 10px;
+    font-size: medium;
+}
+
+/*styling spotlights cards*/
+.spotlights {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: none;
+    
+    font-size: medium;
+}
+
+.style-spotlights {
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    color: var(--text-color-header);
+    background-color: whitesmoke;
+    margin: 10px;
+    padding-top: 5px; 
+    padding-bottom: 5px;   
+}
+
+.labelimg-spotlight {
+    text-align: left;
+    color: var(--text-color-header);
+    font-size: large;
+    font-style: italic;
+    margin-right: 5px;
+
+
+
+}
+
+.style-link-spotlight {
+    color: #415a77;
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+
+.style-link-spotlight:hover {
+    color: blue;
+    text-decoration-color: blue;
+}
+
+.bold {
+    font-weight: bolder;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Culiacan Chamber of Commerce</title>
-    <meta name="description" content="This site will serve as a resource hub for business 
+    <meta name="home page" content="This site will serve as a resource hub for business 
     in the city of Culiacan. The web site will provide information on local events, host networking
     opportunities, create business directories, and encourage local shopping.">
     <meta name="author" content="Alma Delia Barraza Raygoza">
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber-directory.css">
     <link rel="stylesheet" href="styles/chamber-directory-large.css">
-    <script src="scripts/chamber-directory.js" defer></script>
+    <script src="scripts/chamber-index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -49,12 +49,53 @@
         </nav>
     </header>
     <main>
-        <div class="buttons">
-            <button type="button" id="grid" aria-label="grid button">⏹ Grid</button>
-            <button type="button" id="list" aria-label="list button">📄 List</button>
+        <!--Hero image and call action link-->
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 500px )" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="Culiacan chamber of commerce" width="500" height="250">
+            </picture>
+            <button class="call-to-action" type="button" id="call-to-action" aria-label="keynote tickets"><a
+                    href="#">Keynote Tickets</a></button>
         </div>
+        <h1>Home</h1>
+        <section class="home-page-grid">
+            <!-- Current events section -->
+            <section>
+                <h2>Event</h2>
 
-        <div id="cards" class="grid list"></div>
+            </section>
+            <section>
+                <h2>Current Weather</h2>
+                <div class="current-weather">
+                    <img id="weather-icon" src="" alt="">
+                    <p id="temperature"></p>
+                    <p id="description"></p>
+                    <p id="hight"></p>
+                    <p id="low"></p>
+                    <p id="humidity"></p>
+                    <p id="sunrise"></p>
+                    <p id="sunset"></p>
+                </div>
+            </section>
+            <section class="weather-forecast">
+                <h2>Weather Forecast</h2>
+                <p id="day1"></p>
+                <p id="day2"></p>
+                <p id="day3"></p>
+            </section>
+        </section>
+        
+        <div id="cards" class="spotlights"></div>
+
+        
+
+
+
+
+
+
     </main>
     <footer>
         <div>
