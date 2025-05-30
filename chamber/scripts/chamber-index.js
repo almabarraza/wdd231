@@ -70,9 +70,9 @@ function displayResults(data) {
     humidity.textContent = `Humidity: ${data.main.humidity}%`;
 
     let hour = new Date(data.sys.sunrise * 1000);
-    sunrise.textContent = formatHour(hour);
+    sunrise.textContent = `Sunrise: ${formatHour(hour)}`;
     hour = new Date(data.sys.sunset * 1000);
-    sunset.textContent = formatHour(hour);
+    sunset.textContent = `Sunset: ${formatHour(hour)}`;
 
 
 }
