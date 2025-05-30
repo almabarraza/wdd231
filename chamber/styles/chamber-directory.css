@@ -49,7 +49,13 @@ body {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    overflow-x: hidden;
 
+}
+
+html,
+body {
+    overflow-x: hidden;
 }
 
 header {
@@ -263,6 +269,8 @@ nav {
 .hero img {
     width: 100%;
     height: auto;
+    object-fit: cover;
+    object-position: center;
 }
 
 
@@ -378,7 +386,7 @@ h2 {
 .boton {
     display: inline-block;
     padding: 10px 20px;
-   /* background-color: #06558A;*/
+    /* background-color: #06558A;*/
     color: white;
     text-align: center;
     text-decoration: none;
@@ -395,7 +403,7 @@ h2 {
     top: 200px;
     right: 20px;
     background-color: var(--backgroun-color);
-   /* padding: 10px;*/
+    /* padding: 10px;*/
     border: 2px solid #ddd;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 9);
 
@@ -408,6 +416,7 @@ h2 {
     font-weight: 400;
 
 }
+
 /*
 .call-to-action>a:hover {
     background-color: #06558A;
