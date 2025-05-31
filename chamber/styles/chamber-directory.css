@@ -201,6 +201,7 @@ nav {
     font-size: large;
     font-style: italic;
     margin-right: 5px;
+    
 
 
 
@@ -273,13 +274,13 @@ nav {
     object-position: center;
 }
 
-
+/*
 section {
     display: block;
     border: 1px solid #ddd;
     margin: 0;
     padding: 0;
-}
+}*/
 
 
 h1 {
