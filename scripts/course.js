@@ -110,20 +110,72 @@ function showCurses(filtercourses) {
     }
 
     filtercourses.forEach(curse => {
-        const p = document.createElement('p');
+        const btn = document.createElement('button');
 
         if (curse.completed === true) {
-            p.textContent = `✔ ${curse.subject} ${curse.number}`;
-            p.style.backgroundColor = '#640d14';
+            btn.setAttribute('id', `'btn${curse.subject}${curse.number}'`);
+            btn.classList.add('style-btn');
+            btn.textContent = `✔ ${curse.subject} ${curse.number}`;
+            btn.style.backgroundColor = '#640d14';
+            btn.addEventListener('click', () => showInfo(curse));
         }
         else {
-            p.textContent = `${curse.subject} ${curse.number}`;
-            p.style.backgroundColor = '#c0c0c0';
-            p.style.color = 'black';
+            btn.setAttribute('id', `'btn${curse.subject}${curse.number}'`);
+            btn.classList.add('style-btn');
+            btn.textContent = `${curse.subject} ${curse.number}`;
+            btn.style.backgroundColor = '#c0c0c0';
+            btn.style.color = 'black';
+            btn.addEventListener('click', () => showInfo(curse));
         }
-        result.appendChild(p);
+
+        result.appendChild(btn);
     });
 
 }
 
+
+function showInfo(data) {
+
+    const existingDialog = document.getElementById('myDialog');
+    if (existingDialog) {
+        existingDialog.remove();
+    }
+
+    const dialog = document.createElement('dialog');
+    const title = document.createElement('h2');
+    const closebtn = document.createElement('button');
+    const courseName = document.createElement('h3');
+    const credits = document.createElement('p');
+    const certificate = document.createElement('p');
+    const description = document.createElement('p');
+    const technology = document.createElement('p');
+
+    dialog.setAttribute('id', 'myDialog');
+    title.setAttribute('id', 'myTitle');
+    closebtn.setAttribute('aria-label', 'Cerrar modal');
+
+
+    title.innerHTML = `${data.subject}${data.number}`;
+    closebtn.innerHTML = 'X';
+    courseName.textContent = data.title;
+    credits.textContent = `Creditos: ${data.credits}`;
+    certificate.textContent = `Certificate: ${data.certificate}`;
+    description.textContent = `Description: ${data.description}`;
+    technology.textContent = `Technology ${data.technology}`;
+
+
+
+    dialog.appendChild(title);
+    dialog.appendChild(closebtn);
+    dialog.appendChild(courseName);
+    dialog.appendChild(credits);
+    dialog.appendChild(certificate);
+    dialog.appendChild(description);
+    dialog.appendChild(technology);
+
+
+    document.body.appendChild(dialog);
+    dialog.showModal();
+    closebtn.addEventListener('click', () => dialog.close());
+}
 
