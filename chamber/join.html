@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culiacan Chamber of Commerce</title>
+    <meta name="description" content="This site will serve as a resource hub for business 
+    in the city of Culiacan. The web site will provide information on local events, host networking
+    opportunities, create business directories, and encourage local shopping.">
+    <meta name="author" content="Alma Delia Barraza Raygoza">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Culiacan Chamber of Commerce">
+    <meta property="og:description" content="This site is a resource hub for business in the ciry of Culiacan. It will provide information
+    related with the local commerce.">
+    <meta property="og:image" content="http://almabarraza.github.io/wdd231/chamber/images/home-page.webp">
+    <meta property="og:url" content="https://almabarraza.github.io/wdd231/chamber/directory.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber-directory.css">
+    <link rel="stylesheet" href="styles/chamber-directory-l.css">
+    <script src="scripts/chamber-join.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="join-special">
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="images/logo.svg" alt="logo culiacan chamber commerce" width="100" height="100">
+
+            <div class="company-name">
+                <span class="first-word">Culiacan</span>
+                <span class="second-word">Chamber of Commerce</span>
+
+            </div>
+        </div>
+
+        <button type="button" id="menu" aria-label="open menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" id="home" title="Home">Home</a></li>
+                <li><a href="directory.html" id="directory" title="Directory">Directory</a></li>
+                <li><a href="join.html" id="join" title="Join">Join</a></li>
+                <li><a href="#" id="discover" title="Discover">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Membership Application Form</h2>
+            <form method="get" action="thankyou.html" class="form1" id="myform">
+                <label>First Name* <input type="text" name="first" required autocomplete="given-name"
+                        title="Your First Name"></label>
+                <label>Last Name* <input type="text" name="last" required autocomplete="family-name"
+                        title="Your Last Name"></label>
+                <label>Organizational Title <input type="text" name="organizational-title"
+                        autocomplete="organization-title" pattern="^[a-zA-Z\s-]{7,}$"
+                        title="Only letters, spaces, and hyphens; minimum 7 characters"></label>
+                <label>Email* <input type="email" name="email" required placeholder="someone@gmail.com"
+                        title="Your Email" autocomplete="email"></label>
+                <label>Cell Phone* <input type="tel" name="phone" required autocomplete="tel"
+                        title="Phone Number with dashes"></label>
+                <label>Organization's Name* <input type="text" name="organization-name" required
+                        autocomplete="organization" title="Business name"></label>
+
+                <h3>Select Membership Level</h3>
+                <label><input type="radio" name="membership" value="NP"> NP Membership for non profit
+                    organization</label>
+                <label><input type="radio" name="membership" value="Bronze" checked> Bronze Membership</label>
+                <label><input type="radio" name="membership" value="Silver"> Silver Membership</label>
+                <label><input type="radio" name="membership" value="Gold"> Gold Membership</label>
+
+                <fieldset>
+                    <legend>Business/Organization Description</legend>
+                    <label><textarea name="description" rows="6" cols="50"
+                            placeholder="Write a brief organization's description here..."></textarea></label>
+                </fieldset>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <input type="submit" value="Apply">
+
+            </form>
+        </section>
+        <section class="membership-section cards-animated">
+            <h2>Membership Levels</h2>
+            <div class="style-membership card-animation">
+                <p>Non Profit Membership Level</p>
+                <button class="style-btn" id="np-membership">Learn More</button>
+            </div class="style-membership card-animation">
+            <div class="style-membership">
+                <p>Bronze Membership Level</p>
+                <button class="style-btn" id="bronze-membership">Learn More</button>
+            </div>
+            <div class="style-membership card-animation">
+                <p>Silver Membership Level</p>
+                <button class="style-btn" id="silver-membership">Learn More</button>
+            </div>
+            <div class="style-membership card-animation">
+                <p>Gold Membership Level</p>
+                <button class="style-btn" id="gold-membership">Learn More</button>
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <div>
+            <h4>Culiacan Chamber of Commerce</h4>
+            <p>184 Av. Alvaro Obregon</p>
+            <p>centro. Culiacan, Sinaloa, Mexico</p>
+            <p>info@culiacan.org</p>
+            <p>(667) 718-2020</p>
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Alma Delia Barraza Raygoza</p>
+            <p>© <span id="currentyear"></span> Culiacan Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

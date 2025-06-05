@@ -201,7 +201,7 @@ nav {
     font-size: large;
     font-style: italic;
     margin-right: 5px;
-    
+
 
 
 
@@ -418,9 +418,227 @@ h2 {
 
 }
 
+/*Join page*/
+/*Form section*/
+.form1 {
+    text-align: initial;
+}
+
+.form1 fieldset {
+    margin: 2rem 0;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    max-width: 450px;
+}
+
+.form1 legend {
+    color: #1e3170;
+    padding: .5rem;
+
+}
+
+.form1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .9rem;
+
+}
+
+.form1 input[type="text"],
+.form1 input[type="tel"],
+.form1 input[type="email"],
+.form1 textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+
+    max-width: 400px;
+    appearance: none;
+}
+
+.form1 input[type="radio"] {
+    margin-right: 8px;
+
+}
+
+.form1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#9c2c13, #6f200e);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+
+.form1 input:required {
+    border-bottom: solid 8px red;
+}
+
+.form1 select:required:valid,
+.form1 input:required:valid {
+    border-bottom: solid 8px green;
+}
+
+.form1 h3 {
+    color: var(--text-color-header);
+    font-size: large;
+    margin-top: 10px;
+
+}
+
 /*
-.call-to-action>a:hover {
-    background-color: #06558A;
-    color: white;
-    font-weight: 900;
+.thanks-align {
+    text-align: initial;
+}
+
+footer a {
+    color: #1d2020;
 }*/
+
+.style-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+
+body.join-special main {
+    background-color: lightgray;
+}
+
+.style-btn {
+    margin: 20px;
+    padding: 10px;
+    background-color: var(--backgroun-color);
+    color: white;
+}
+
+.style-btn:active {
+    background-color: #6f200e;
+}
+
+/*membership section in join page*/
+
+.style-membership {
+    background-color: silver;
+    padding: 25px;
+    margin-top: 25px;
+    max-width: 400px;
+    border-radius: 6px;
+
+}
+
+.style-membership p {
+    color: var(--text-color-header);
+    text-align: center;
+    font-size: medium;
+}
+
+.form-section h2,
+.membership-section h2 {
+    width: 50%;
+    background-color: lightgray;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/*Dialogs */
+
+dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px) contrast(150%) brightness(80%);
+}
+
+
+dialog h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+    font-weight: bolder;
+}
+
+dialog p {
+    font-size: medium;
+    color: #555;
+    text-align: left;
+    padding-top: 5px;
+}
+
+dialog button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+dialog button:hover {
+    background-color: #0056b3;
+}
+
+/*Animation in membership cards*/
+
+.cards-animated {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: appears 2s ease-out forwards;
+}
+
+.card-animation:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.card-animation:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.card-animation:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes appears {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#results {
+    background-color: #ddd;
+    padding: 0 1rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding-top: 5px;
+}
+
+#results>p {
+    padding-top: 5px;
+    font-size: large;
+}

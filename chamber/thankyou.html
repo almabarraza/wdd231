@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber-directory.css">
     <link rel="stylesheet" href="styles/chamber-directory-l.css">
-    <script src="scripts/chamber-directory.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body class="join-special">
     <header>
         <div class="logo-container">
             <img class="logo" src="images/logo.svg" alt="logo culiacan chamber commerce" width="100" height="100">
@@ -49,12 +49,10 @@
         </nav>
     </header>
     <main>
-        <div class="buttons">
-            <button type="button" id="grid" aria-label="grid button">⏹ Grid</button>
-            <button type="button" id="list" aria-label="list button">📄 List</button>
-        </div>
+        <h1 class="thankyou-h1">Thank you for Applying</h1>
 
-        <div id="cards" class="grid list"></div>
+        <div id="results"></div>
+
     </main>
     <footer>
         <div>

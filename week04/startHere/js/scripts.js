@@ -20,3 +20,17 @@ document.querySelector('#results').innerHTML = `
 <p>Your email is: ${myInfo.get('email')}</p>`
 
 
+/*This code is for send the hidden timestamp in a form*/
+
+/*
+
+// Función para establecer el valor del campo oculto con el timestamp actual
+function asignarTimestamp() {
+    var timestamp = new Date().toISOString(); // Obtiene la fecha y hora actual en formato ISO 8601
+    document.getElementById('timestamp').value = timestamp; // Asigna el valor al campo oculto
+}
+
+// Asigna el timestamp cuando el formulario se envía
+document.getElementById('miFormulario').addEventListener('submit', function (event) {
+    asignarTimestamp();
+});*/
