@@ -1,0 +1,17 @@
+@media screen and (min-width: 500px) {
+   
+    .style-title {
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+/*
+    .logo {
+        height: 3em;
+        vertical-align: -0.5em;
+    }*/
+}
