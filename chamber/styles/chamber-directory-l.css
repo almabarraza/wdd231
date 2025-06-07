@@ -1,4 +1,4 @@
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 768px) {
 
     .logo {
         height: 80px;
@@ -120,11 +120,12 @@
     body.join-special main {
         display: grid;
         grid-template-columns: auto 1fr;
-        gap: 100px;
+        gap: 50px;
     }
 
     .style-membership {
-        margin-left: 200px;
+        margin-left: 5%;
+        max-width: 600px;
 
     }
 
@@ -145,6 +146,17 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    
 
+
+}
+
+@media screen and (max-width: 1024px) {
+    .style-membership {
+        margin-left: 1%;
+
+    }
+
+    body.join-special main {
+        gap: 1%;
+    }
 }
