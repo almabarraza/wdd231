@@ -652,7 +652,8 @@ dialog button:hover {
     margin: 1rem 8px;
     border: 1px solid #999;
     background-color: var(--text-color-main);
-    border-radius: hidden;
+    border-radius: 10px;
+    overflow: hidden;
     color: var(--text-color-header);
 
     display: grid;
