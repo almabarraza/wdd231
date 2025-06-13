@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "name": "Zoo",
+            "address": "P.º Niños Heroes, Las Quintas, 80060 Culiacán Rosales, Sin.",
+            "description": "The Culiacán Zoo, officially known as the Zoológico de Culiacán, is a prominent wildlife conservation and education center located in the heart of Culiacán, Sinaloa, Mexico. Established on December 14, 1958, it has evolved from a modest farm into a modern zoological park, making it one of the most visited attractions in northwestern Mexico",
+            "image": "images/zoo.webp"
+        },
+        {
+            "name": "Rivers",
+            "address": "80000, Desarrollo Urbano Tres Ríos, 80020 Culiacán Rosales, Sin.",
+            "description": "There are Three Rivers in Culiacán City. These rivers are central to Culiacán's agricultural activities, providing essential irrigation and supporting local ecosystems. The confluence of the Humaya and Tamazula rivers in Culiacán is particularly significant, forming the Culiacán River, which sustains the surrounding agricultural regions. However, the rivers also face environmental challenges, including pollution from industrial activities, which impact water quality and biodiversity",
+            "image": "images/rivers.webp"
+        },
+        {
+            "name": "The Riberas Park",
+            "address": "Blvd. Francisco Labastida Ochoa S/N, Desarrollo Urbano Tres Ríos, 80230 Culiacán Rosales, Sin.",
+            "description": "Parque Las Riberas is the largest and most significant public park in Culiacán, Sinaloa, Mexico, as well as the largest in northwestern Mexico. Spanning approximately 150 hectares (370 acres) along the confluence of the Humaya, Tamazula, and Culiacán rivers, the park seamlessly integrates natural landscapes with urban development, offering a unique recreational space for residents and visitors alike.",
+            "image": "images/riberas-park.webp"
+        },
+        {
+            "name": "The Locha",
+            "address": "Prol. Álvaro Obregón s/n, Primer Cuadro, 80000 Culiacán Rosales, Sin.",
+            "description": "This statue represents the fertility of the land in Sinaloa. La Locha is one of Culiacán's most iconic landmarks, a statue that has become a symbol of the city's cultural identity. Officially known as La Madre Naturaleza (Mother Nature), this sculpture is located in Parque Revolución, near the heart of downtown Culiacán",
+            "image": "images/locha.webp"
+        },
+        {
+            "name": "The Lake",
+            "address": "80279, C. Carbonera 304, Parque Culiacán 87, 80279 Culiacán Rosales, Sin.",
+            "description": "The Lago Encantado (Enchanted Lake) is a central feature of Parque Culiacán 87, one of the city's most beloved recreational spaces. Situated within the park's 52-hectare expanse, the lake offers a serene and picturesque environment for visitors of all ages.",
+            "image": "images/lake.webp"
+        },
+        {
+            "name": "The Caprichito Restaurant",
+            "address": "Montebello 99, Montebello, 80227 Culiacán Rosales, Sin.",
+            "description": "It's a restaurant with delicious wood-fired pizzas besides a beautiful view of the city. Caprichito Bello is a renowned restaurant in Culiacán, Sinaloa, celebrated for its Mediterranean-inspired cuisine, inviting ambiance, and picturesque views of the city. Located at Calle Montebello 99, this establishment offers a delightful dining experience that combines flavorful dishes with a charming atmosphere.",
+            "image": "images/caprichito.webp"
+        },
+        {
+            "name": "The Botanic Garden",
+            "address": "Av, Calz de las Americas Nte No 2131, Burócrata, 80040 Culiacán Rosales, Sin.",
+            "description": "The Jardín Botánico de Culiacán (Culiacán Botanical Garden) is a renowned public space in Culiacán, Sinaloa, Mexico, dedicated to the conservation of plant species, scientific research, environmental education, and cultural promotion. Established in 1986, it spans 10 hectares and is managed by the Sociedad Botánica y Zoológica de Sinaloa",
+            "image": "images/botanic-garden.webp"
+        },
+        {
+            "name": "The 87 Park",
+            "address": "blvd. México 68 S/N, Col. República Mexicana, C.P. 80147",
+            "description": "Parque Culiacán 87, officially named Parque Lic. Ernesto Millán Escalante, is a prominent recreational area in Culiacán, Sinaloa, Mexico. Established in 1989, it spans 52 hectares and offers a diverse range of activities suitable for all ages. It's a large park with amusement rides, swimming pools, sports courts, a lake, and lots of fun activities.",
+            "image": "images/87park.webp"
+        }
+    ]
+}

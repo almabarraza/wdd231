@@ -134,6 +134,8 @@ function showCurses(filtercourses) {
 }
 
 
+
+
 function showInfo(data) {
 
     const existingDialog = document.getElementById('myDialog');

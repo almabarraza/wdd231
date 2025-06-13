@@ -647,3 +647,64 @@ dialog button:hover {
     font-size: large;
 
 }
+
+#places div {
+    margin: 1rem 8px;
+    border: 1px solid #999;
+    background-color: var(--text-color-main);
+    border-radius: hidden;
+    color: var(--text-color-header);
+
+    display: grid;
+    grid-template-areas:
+        "name"
+        "figure"
+        "description"
+        "location";
+
+}
+
+#places div h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+
+
+
+}
+
+#places div figure {
+    margin: 10px;
+    width: 100%;
+    grid-area: figure;
+}
+
+#places div p {
+    margin: 1rem 10px;
+    grid-area: description;
+    font-size: medium;
+    padding-top: 10px;
+}
+
+#places div address {
+    margin: 1rem 10px;
+    grid-area: location;
+    font-size: medium;
+}
+
+
+.labelh2 {
+
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+.style-visitMsg {
+    background-color: #EBC974;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: xx-large;
+    color: var(--text-color-header);
+}
