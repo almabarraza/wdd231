@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ailed Recipes content</title>
+    <meta name="description" content="In this page the user could see every complete recipe that is into the web site that will be 
+    display like a modal with extra Information besides de ingredients and instruccions. The user will have the time of preparation, 
+    the yields of serving and a link to the youtube channel with the recipe in video.">
+    <meta name="author" content="Alma Delia Barraza Raygoza">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Ailed Recipes">
+    <meta property="og:description"
+        content="This site will help you learn to make different recipes of dishes and desserts">
+    <meta property="og:image" content="http://almabarraza.github.io/wdd231/finalproject/images/home-page.webp">
+    <meta property="og:url" content="https://almabarraza.github.io/wdd231/finalproject/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/recipes.css">
+    <link rel="stylesheet" href="styles/recipes-large.css">
+    <script src="scrips/recipes.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="images/logo.svg" alt="logo Ailed recipes" width="100" height="100">
+
+            <div class="company-name">
+                <span class="name-site">Ailed Recipes</span>
+
+            </div>
+        </div>
+
+        <button type="button" id="menu" aria-label="open menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" id="home" title="Home">Home</a></li>
+                <li><a href="recipes.html" id="recipes" title="Recipes">Recipes</a></li>
+                <li><a href="contact-us.html" id="contactUs" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h2>Dishes and Desserts Recipes</h2>
+
+        <div id="cards" class="grid"></div>
+
+    </main>
+    <footer>
+        <div>
+            <p>Ailed Recetas y Detalles</p>
+            <small><a href="sources.html">Sources</a></small>
+
+        </div>
+
+        <div>
+            <a href="https://www.facebook.com/share/1Ejrp561rs/"><img src="images/facebook-icon.webp"
+                    alt="facebook page" width="50" height="50"></a>
+            <a href="https://www.instagram.com/ailedrecetasydetalles?igsh=anhybWk0amUya3Nu"><img
+                    src="images/instagram-icon.webp" alt="instagram page" width="50" height="50"></a>
+            <a href="https://youtube.com/@ailedrecetasydetalles?si=TNNmgE2nyaDdQ3qb"><img src="images/youtube-icon.webp"
+                    alt="youtube channel" width="50" height="50"></a>
+        </div>
+        <div>
+            <p>© <span id="currentyear"></span> Alma Delia Barraza Raygoza México</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
