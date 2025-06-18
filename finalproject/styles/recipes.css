@@ -357,7 +357,7 @@ h2 {
 .boton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: red;
+    background-color: var(--mane-mobile);
     color: white;
     text-align: center;
     text-decoration: none;
@@ -373,7 +373,7 @@ h2 {
     position: absolute;
     top: 200px;
     right: 20px;
-    background-color: red;
+    background-color: var(--mane-mobile);
     /* padding: 10px;*/
     border: 2px solid #ddd;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 9);
